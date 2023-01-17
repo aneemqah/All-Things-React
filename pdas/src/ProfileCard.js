@@ -1,9 +1,9 @@
 import React from 'react';
 
-function ProfileCard() {
+function ProfileCard({ title, handle }) {
   return (
     <div>
-      <h1>Profile Card</h1>
+      {title} {handle}
     </div>
   );
 }
